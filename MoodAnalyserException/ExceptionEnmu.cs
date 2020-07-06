@@ -6,8 +6,8 @@ namespace SampleConsoleApp.MoodAnalyserException
 {
     public enum ExceptionEnmu
     {
-        INVAILD_VALUE, MoodAnalysisException 
-    
+        INVAILD_VALUE, MoodAnalysisException , CLASS_NOT_FOUND
+
     }
     
 

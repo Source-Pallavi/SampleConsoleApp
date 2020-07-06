@@ -14,6 +14,9 @@ namespace SampleConsoleApp.MoodAnalyser
         {
             this.mood = mood;
         }
+        public MoodAnalysis()
+        {
+        }
 
 
         public string AnalysisMood()
@@ -25,9 +28,9 @@ namespace SampleConsoleApp.MoodAnalyser
                 if(mood == null)
                     throw new MoodAnalyserExceptionClass(MoodAnalyserExceptionClass.ExceptionEnmu.NULL_EXCEPTION, "Mood Should Not be Null");
                 if (this.mood.Contains("Happy"))
-                    return "Happy";
+                    return " I am in Happy mood ";
                 if (mood.Contains("Sad"))
-                    return "Sad";
+                    return " I am in Sad mood ";
                
                 return "I am not sure about mood";
             }
